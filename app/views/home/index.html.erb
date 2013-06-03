@@ -18,7 +18,8 @@
     <div class ="main">
 
       <div class ='headline'>
-          Hi, I'm Evan. I'm an engineering intern at <a href="http://onekingslane.com"> One Kings Lane</a> and an Applied Math major at Claremont McKenna College. <a href="/">More about me. </a>
+          Hi, I'm Evan. I'm an engineering intern at <a href="http://onekingslane.com"> One Kings Lane</a> and an Applied Math major at Claremont McKenna College. <%= link_to "More about me.", about_path, :class => "extra" %>
+          
       </div>
 
       <div class ='project-header'>
@@ -27,22 +28,63 @@
 
       <div class ='project'>
         <a class="extra" href="http://claremont-sms.herokuapp.com">
-        <img src ="../assets/claremont_sms.png" height = "120px" width = "150px">
+        <img src ="../assets/claremont_sms.png" height = "112.5px" width = "150px">
         </a></br></br>
       
         <a class ="extra" href="http://stockviz.herokuapp.com">
-        <img src ="../assets/stockviz.png" height = "120px" width = "150px">
+        <img src ="../assets/stockviz.png" height = "112.5px" width = "150px">
         </a></br></br>
       
         <a class ="extra" href="http://hubbly.in">
-        <img src ="../assets/hubbly.png" height = "120px" width = "150px">
+        <img src ="../assets/hubbly.png" height = "112.5px" width = "150px">
         </a></br>
       </div>
 
       <div class ="project-desc">
         <a class="extra" href="http://claremont-sms.herokuapp.com">
           Claremont SMS
-        </a>
+        </a></br>
+
+        Anonymously text your friends with the Twilio API.
+        
+        </br>
+
+        <li> Python </li>
+        <li> Flask </li>
+        <li> Twilio API </li>
+        <li> MongoDB </li>
+
+      </br></br></br></br></br></br></br>
+
+        <a class="extra" href="http://stockviz.herokuapp.com">
+          StockTweets Influence Visualization
+        </a></br>
+
+        Visualizing user influence from $TICKER tweets in D3.js.
+
+        </br>
+
+        <li> D3.js </li>
+        <li> Python </li>
+        <li> Flask </li>
+        <li> Twitter API </li>
+        
+
+
+        </br></br></br></br></br></br></br>
+
+        <a class="extra" href="http://hubbly.in">
+          Hubbly.in
+        </a></br>
+
+        Online food ordering prototype for the Hub Grill. 
+
+        </br>
+
+        <li> Python </li>
+        <li> Django </li>
+        <li> JQuery </li>
+        <li> Twitter Bootstrap </li>
 
 
 
@@ -70,12 +112,9 @@
     <a class ='extra' href='http://ev.ancasey.com'>Sample Blog Post 2</a></br></br>
     <a class ='extra' href='http://ev.ancasey.com'>Sample Blog Post 3</a>
     </br></br>
+    <a class ='extra' <%= link_to "My Blog", blog_path %> </a>
+    </br></br>
 
-    <div class ='extra'>
-
-      <%= link_to "My Blog", posts_path %>
-
-    </div>
 
   </div>  
 
