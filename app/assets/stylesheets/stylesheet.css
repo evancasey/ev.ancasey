@@ -1,0 +1,187 @@
+/*****************************************************************************/
+/*
+/* Common
+/*
+/*****************************************************************************/
+
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family:"avenir";
+
+  font-style:normal;font-weight:400;
+}
+
+body {
+  background-color: white;
+  font-family:helvetica;
+  font-size: 11px;
+  color: rgb(30, 30, 30);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+}
+
+a {
+  color: #ae2900;
+  font-weight: normal;
+  text-decoration: none;
+ }
+
+a:hover {
+  color: #888;
+}
+
+img { 
+   border:5px solid #EEE
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+
+ul.posts {
+	list-style-type: none;
+	margin-bottom: 2em;
+	margin-top: 30px;
+}
+
+  ul.posts li {
+    line-height: 1.75em;
+  }
+
+  ul.posts span {
+    color: #888;
+    font-family: Monaco, "Courier New", monospace;
+    font-size: 80%;
+  }
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.content {}
+
+.nav {
+    float: left;
+	border-top: 40px solid #ae2900;
+    text-transform: uppercase;
+    margin: 0 0 0 40px;
+    padding: 20px 0 0 0;
+    width: 130px;
+}
+
+.nav .home {
+	color: #000000;
+	font-size: 28px;
+	text-decoration: none;
+}
+
+.nav a.home:hover {
+  color: #888;
+}
+
+.nav a.extra {
+	color: #000000;
+	text-align: left;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.nav a.extra:hover {
+  color: #888;
+}
+
+
+.main {
+	float: left;
+	
+}
+
+.main .headline {
+	margin: 58px 0 0 100px;
+	width: 400px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.main .project-header {
+	margin: 30px 0 0 100px;
+	width: 400px;
+	font-size: 24px;
+	border-bottom: 1px solid #000000;
+
+}
+
+.main .project {
+	float:left;
+	margin: 15px 0 0 100px;
+	width: 400px;
+	font-size: 16px;
+}
+
+.main .project img:hover {
+	border-color: #AAA;
+}
+
+.main .project-desc {
+	float:left;
+}
+
+
+
+.right {
+	float: left;
+}
+
+.right .blog-header {
+	margin: 140px 0 0 100px;
+	width: 200px;
+	font-size: 24px;
+	border-bottom: 1px solid #000000;
+}
+
+.right a.extra {
+	margin: 0 0 0 100px;
+	width: 200px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.right .extra {
+	margin: 0 0 0 100px;
+	width: 200px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
