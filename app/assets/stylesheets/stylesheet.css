@@ -222,6 +222,23 @@ ul.posts {
 	text-decoration: none;
 }
 
+.page {
+	float: left;
+}
+
+.page .headline {
+	margin: 90px 0 0 100px;
+	font-size: 28px;
+	border-bottom: 1px solid #000000;
+	width: 600px;
+}
+
+.page .content {
+	margin: 10px 0 0 100px;
+	font-size: 14px;
+	width: 600pk;
+}
+
 .clear {
   clear: both;
 }
