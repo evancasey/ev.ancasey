@@ -6,5 +6,6 @@ EvAncasey::Application.routes.draw do
   match '/blog', to: 'blog#index'
   match '/projects', to: 'projects#index'
   match '/random', to: 'random#index'
+  match '/blog/summer', to: 'blog#summer'
 
   end

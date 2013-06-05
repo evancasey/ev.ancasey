@@ -143,7 +143,6 @@ ul.posts {
 	width: 440px;
 	font-size: 24px;
 	border-bottom: 1px solid #000000;
-
 }
 
 .main .project {
@@ -188,8 +187,6 @@ ul.posts {
 	color: #ae2900;
 	font-size: 16px;
 	margin: 10px 0px 10px 0px;
-	
-	
 }
 
 .main .headline a.extra{
@@ -233,10 +230,50 @@ ul.posts {
 	width: 600px;
 }
 
-.page .content {
-	margin: 10px 0 0 100px;
-	font-size: 14px;
-	width: 600pk;
+.page .project-content {
+	width: 600px;
+	float: left;
+	margin: 20px 0 5px 100px;
+	width: 180px;
+	font-size: 16px;
+}
+
+.page .project-content img:hover {
+	border-color: #AAA;
+}
+
+.page .project-desc {
+	float:left;
+	margin: 20px 0 0 0;
+	width: 260px;
+	float:left;
+	font-size: 12px;
+}
+
+.page .project-desc li {
+	list-style: none inside;
+	padding: 5px 5px 5px 5px;
+	margin: 10px 10px 0px 0px;
+	width: 60px;
+	background-color: #f9f9f9;
+	color: #888;
+	text-decoration: none !important;
+	border: solid 1px #eee;
+	border-radius: 4px;
+	float: left;
+	text-align: center;
+}
+
+.page .project-desc li:hover {
+	background-color: #ddd;
+	color: #555 !important;
+	border: solid 1px #aaa;
+}
+
+.page .project-desc a.extra {
+	color: #ae2900;
+	font-size: 16px;
+	margin: 10px 0px 10px 0px;
 }
 
 .clear {
