@@ -1,5 +1,8 @@
 EvAncasey::Application.routes.draw do
   
+  resources :subscribes
+
+
   root :to => "home#index"
 
   match '/about', to: 'about#index'
