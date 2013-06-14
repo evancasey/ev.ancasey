@@ -15,8 +15,13 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
 gem 'friendly_id'
+
+gem 'redcarpet', '1.17.2'
+gem 'albino'
+gem 'nokogiri'
+
+gem 'devise'
 
 group :development, :test do
     gem 'sqlite3'

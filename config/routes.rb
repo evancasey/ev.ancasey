@@ -1,8 +1,8 @@
 EvAncasey::Application.routes.draw do
-  
-  resources :posts
 
+  devise_for :users
 
+  resources :users
   resources :posts
   resources :subscribes
   resources :home
