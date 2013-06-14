@@ -1,6 +1,9 @@
 EvAncasey::Application.routes.draw do
   
   resources :posts
+
+
+  resources :posts
   resources :subscribes
   resources :home
 
