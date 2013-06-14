@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class SubscribesControllerTest < ActionController::TestCase
+class SubscribeControllerTest < ActionController::TestCase
   setup do
     @subscribe = subscribes(:one)
   end
@@ -8,7 +8,7 @@ class SubscribesControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_not_nil assigns(:subscribes)
+    assert_not_nil assigns(:subscribe)
   end
 
   test "should get new" do

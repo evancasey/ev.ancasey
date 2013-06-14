@@ -1,17 +1,17 @@
-class SubscribesController < ApplicationController
-  # GET /subscribes
-  # GET /subscribes.json
+class SubscribeController < ApplicationController
+  # GET /subscribe
+  # GET /subscribe.json
   def index
     @subscribes = Subscribe.all
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # about.html.erb
       format.json { render json: @subscribes }
     end
   end
 
-  # GET /subscribes/1
-  # GET /subscribes/1.json
+  # GET /subscribe/1
+  # GET /subscribe/1.json
   def show
     @subscribe = Subscribe.find(params[:id])
 
@@ -21,8 +21,8 @@ class SubscribesController < ApplicationController
     end
   end
 
-  # GET /subscribes/new
-  # GET /subscribes/new.json
+  # GET /subscribe/new
+  # GET /subscribe/new.json
   def new
     @subscribe = Subscribe.new
 
@@ -32,13 +32,13 @@ class SubscribesController < ApplicationController
     end
   end
 
-  # GET /subscribes/1/edit
+  # GET /subscribe/1/edit
   def edit
     @subscribe = Subscribe.find(params[:id])
   end
 
-  # POST /subscribes
-  # POST /subscribes.json
+  # POST /subscribe
+  # POST /subscribe.json
   def create
     @subscribe = Subscribe.new(params[:subscribe])
 
@@ -53,8 +53,8 @@ class SubscribesController < ApplicationController
     end
   end
 
-  # PUT /subscribes/1
-  # PUT /subscribes/1.json
+  # PUT /subscribe/1
+  # PUT /subscribe/1.json
   def update
     @subscribe = Subscribe.find(params[:id])
 
@@ -69,8 +69,8 @@ class SubscribesController < ApplicationController
     end
   end
 
-  # DELETE /subscribes/1
-  # DELETE /subscribes/1.json
+  # DELETE /subscribe/1
+  # DELETE /subscribe/1.json
   def destroy
     @subscribe = Subscribe.find(params[:id])
     @subscribe.destroy

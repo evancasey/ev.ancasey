@@ -1,14 +1,14 @@
 EvAncasey::Application.routes.draw do
   
+  resources :posts
   resources :subscribes
-
+  resources :home
 
   root :to => "home#index"
 
-  match '/about', to: 'about#index'
-  match '/blog', to: 'blog#index'
-  match '/projects', to: 'projects#index'
-  match '/random', to: 'random#index'
-  match '/blog/summer', to: 'blog#summer'
+  match '/about', to: 'home#about'
+  match '/projects', to: 'home#projects'
+  match '/random', to: 'home#random'
+  match '/home', to: 'home#index'
 
   end

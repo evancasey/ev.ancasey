@@ -93,12 +93,9 @@
 
   <div class="right">
 
-    <div class ='subscribe'>
-      Subscribe
-    </div>
-
-
-    <%= render :partial => '/subscribes/form' %>
+    <!--<div class ='subscribe'>-->
+      <!--Subscribe-->
+    <!--</div>-->
 
     <div class ='blog-header'>
       Blog
@@ -106,11 +103,11 @@
 
 
     </br>
-    <%= link_to "Summer", blog_path, :class => 'extra' %> </br></br>
+    <%= link_to "Summer", @post, :class => 'extra' %> </br></br>
     <a class ='extra' href='http://ev.ancasey.com'>Sample Blog Post 2</a></br></br>
     <a class ='extra' href='http://ev.ancasey.com'>Sample Blog Post 3</a>
     </br></br>
-    <%= link_to "My Blog", blog_path, :class => 'extra' %>
+    <%= link_to "My Blog", @post, :class => 'extra' %>
     </br></br>
 
 
