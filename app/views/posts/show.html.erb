@@ -3,6 +3,6 @@
 
 <p>
   <b>Content:</b>
-  <%= markdown(@post.content) %>
+  <%= markdown(@post.content).html_safe %>
 </p>
 
