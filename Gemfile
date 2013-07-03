@@ -24,5 +24,5 @@ end
 
 group :production do
         gem 'thin'
-    gem 'sqlite3'
+    gem 'pg'
 end

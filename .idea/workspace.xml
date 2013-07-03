@@ -9,9 +9,10 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/blog.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130603000337_create_posts.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130603005426_create_posts.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/posts.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ev.ancasey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,11 +61,12 @@
     <file path="/a.dummy" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372834134078" ignored="false" />
     <file path="$PROJECT_DIR$/../babar/app/controllers/experiments_controller.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371184116530" ignored="false" />
     <file path="/20130614043758_remove_blogs.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371184859101" ignored="false" />
-    <file path="/Gemfile" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372834147306" ignored="false" />
+    <file path="/Gemfile" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372834321559" ignored="false" />
     <file path="/20130614052137_add_slug_to_posts.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371187659331" ignored="false" />
     <file path="/application_helper.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371189713680" ignored="false" />
     <file path="/Gemfile.lock" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371324232858" ignored="false" />
     <file path="/development.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372826968966" ignored="false" />
+    <file path="/database.yml" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372834340584" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,10 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="0.78629035">
+            <state line="26" column="11" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="0.6653226">
               <folding />
             </state>
           </provider>
@@ -147,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20130614052137_add_slug_to_posts.rb" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/index.html.erb" />
@@ -163,6 +173,7 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -687,11 +698,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pygments.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="38" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" />
@@ -776,7 +782,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="0.78629035">
+        <state line="26" column="11" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="539" selection-end="539" vertical-scroll-proportion="0.6653226">
           <folding />
         </state>
       </provider>
