@@ -1,6 +1,7 @@
 .page {
 	float: left;
-	margin-left: 100px
+	margin-left: 100px;
+	width: 500px;
 }
 
 .page .headline {

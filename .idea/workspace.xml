@@ -2,49 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/Proxima Nova Fonts Collection.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Black.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Bold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-BoldIt.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Extrabold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Light.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-LightItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-RegItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-RegularItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-Semibold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNova-SemiboldItalic.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNovaCond-Light.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNovaCond-LightIt.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNovaCond-Regular.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNovaCond-RegularIt.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNovaCond-Semibold.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/fonts/ProximaNovaCond-SemiboldIt.otf" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/home.css.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.css.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/subscribes.css.scss" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/home/blog.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/subscribe/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/subscribe/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/subscribe/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/subscribe/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/subscribe/show.html.erb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130603000337_create_posts.rb" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20130603005426_create_posts.rb" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/pygments.css.erb" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pygments.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/users.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/users.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/new.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/new.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.erb" afterPath="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/posts.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/posts.css" />
     </list>
     <ignored path="ev.ancasey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,10 +57,10 @@
     <file path="$PROJECT_DIR$/../babar/app/controllers/buckets_controller.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371182215613" ignored="false" />
     <file path="$PROJECT_DIR$/../babar/app/models/experiment.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371182215613" ignored="false" />
     <file path="$PROJECT_DIR$/../babar/app/views/layouts/application.html.haml" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371182215613" ignored="false" />
-    <file path="/a.dummy" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372225602277" ignored="false" />
+    <file path="/a.dummy" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372834134078" ignored="false" />
     <file path="$PROJECT_DIR$/../babar/app/controllers/experiments_controller.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371184116530" ignored="false" />
     <file path="/20130614043758_remove_blogs.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371184859101" ignored="false" />
-    <file path="/Gemfile" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371325371324" ignored="false" />
+    <file path="/Gemfile" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1372834147306" ignored="false" />
     <file path="/20130614052137_add_slug_to_posts.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371187659331" ignored="false" />
     <file path="/application_helper.rb" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371189713680" ignored="false" />
     <file path="/Gemfile.lock" changelist="b14d7c4c-95df-4620-b3a8-8ec9bfdaa019" time="1371324232858" ignored="false" />
@@ -144,10 +111,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="42" selection-start="458" selection-end="458" vertical-scroll-proportion="0.5887372">
+            <state line="23" column="42" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="0.78629035">
               <folding />
             </state>
           </provider>
@@ -184,9 +160,9 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/pygments.css.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/show.html.erb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -631,10 +607,11 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18776979" sideWeight="0.78617156" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21382843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18776979" sideWeight="0.6709347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21382843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -642,7 +619,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -726,13 +702,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="224" selection-end="224" vertical-scroll-proportion="0.3488372">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="5" selection-start="240" selection-end="240" vertical-scroll-proportion="0.13416816" />
@@ -800,7 +769,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="458" selection-end="458" vertical-scroll-proportion="0.5887372">
+        <state line="23" column="42" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="16" selection-start="394" selection-end="394" vertical-scroll-proportion="0.78629035">
           <folding />
         </state>
       </provider>

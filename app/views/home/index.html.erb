@@ -98,7 +98,12 @@
 
             <%= link_to post.title, post, :class => 'extra' %>
 
+            <% if user_signed_in? %>
+              <%= link_to "Edit", edit_post_path(post) %>
+            <% end %>
+
           </div>
+
 
         <% end %>
 
