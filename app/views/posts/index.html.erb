@@ -1,4 +1,22 @@
-<h1>Listing posts</h1>
+  <div class ='blog-list'>
+
+    <% if @posts.present? %>
+
+        <% @posts.each do |post| %>
+
+          <div class ='blog-title'>
+
+            <%= link_to post.title, post, :class => 'extra' %>
+
+          </div>
+
+        <% end %>
+
+    <% end %>
+
+  </div>
+
+<!-- <h1>Listing posts</h1>
 
 <table>
   <tr>
@@ -21,3 +39,4 @@
 <br />
 
 <%= link_to 'New Post', new_post_path %>
+ -->

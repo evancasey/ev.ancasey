@@ -6,6 +6,7 @@
   <%= stylesheet_link_tag "posts", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -26,7 +27,14 @@
 
 		<a class='extra' href='http://twitter.com/ev_ancasey'>Twitter<br></a>
 		<a class='extra' href='http://github.com/evancasey'>Github<br></a>
-		<a class='extra' href='http://facebook.com/evan.casey.92'>Facebook</a>
+		<a class='extra' href='http://facebook.com/evan.casey.92'>Facebook</a><br><br>
+
+		<div id="user_nav">
+			<% if user_signed_in? %>
+			  Signed in as <%= current_user.email %>. Not you?
+			  <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+			<% end %>
+		</div>
 
     </div>
 

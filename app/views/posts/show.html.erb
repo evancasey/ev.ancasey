@@ -1,8 +1,11 @@
-<p id="notice"><%= notice %></p>
+<div class="page">
+	
+	<div class="headline">
+		<%= @post.title %>
+	</div>
 
-
-<p>
-  <b>Content:</b>
-  <%= markdown(@post.content).html_safe %>
-</p>
-
+	<div class="content">
+	  <%= markdown(@post.content).html_safe %>
+	</div>
+	
+</div>
