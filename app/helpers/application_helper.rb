@@ -1,29 +1,29 @@
 require 'redcarpet'
 module ApplicationHelper
-  def markdown(content)
-    @markdown ||= Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, space_after_headers: true, fenced_code_blocks: true)
-    @markdown.render(content)
+  #def markdown(content)
+  #  @markdown ||= Redcarpet::Markdown.new(Redcarpet::Render::HTML, autolink: true, space_after_headers: true, fenced_code_blocks: true)
+  #  @markdown.render(doc)
+  #end
+  #
+  class HTMLwithPygments < Redcarpet::Render::HTML
+    def block_code(code, language)
+      sha = Digest::SHA1.hexdigest(code)
+      Rails.cache.fetch ["code", language, sha].join('-') do
+        Pygments.highlight(code, lexer: language)
+      end
+    end
+  end
+
+  def markdown(text)
+    renderer = HTMLwithPygments.new(hard_wrap: true, filter_html: true)
+    options = {
+        autolink: true,
+        no_intra_emphasis: true,
+        fenced_code_blocks: true,
+        lax_html_blocks: true,
+        strikethrough: true,
+        superscript: true
+    }
+    Redcarpet::Markdown.new(renderer, options).render(text).html_safe
   end
 end
-#require 'redcarpet'
-#
-#module ApplicationHelper
-#  #def markdown(text)
-#    #extensions = {autolink: true, space_after_headers: true,
-#    #              hard_wrap: true, filter_html: true,
-#    #              no_intraemphasis: true, fenced_code: true,
-#    #              gh_blockcode: true}
-#    #
-#    #markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML, extensions)
-#    #
-#    #markdown.render(text).html_safe
-#
-#  def markdown(text)
-#    markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
-#                                       :autolink => true, :space_after_headers => true)
-#    return markdown.render(text)
-#  end
-#
-#  #end
-#
-#end
