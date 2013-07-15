@@ -1,22 +1,26 @@
 <div class = 'page'>
 
-  <div class = 'headline'>Projects</div>
+  <div class = 'headline'>Blog</div>
 
-  <div class ='blog-list'>
+  <div class = "content">
 
-  <% if @posts.present? %>
+    <div class ='blog-list'>
 
-      <% @posts.each do |post| %>
+    <% if @posts.present? %>
 
-        <div class ='blog-title'>
+        <% @posts.each do |post| %>
 
-          <%= link_to post.title, post, :class => 'extra' %>
+          <div class ='blog-title'>
 
-        </div>
+            <%= link_to post.title, post, :class => 'extra' %>
 
-      <% end %>
+          </div>
 
-  <% end %>
+        <% end %>
+
+    <% end %>
+
+    </div>
 
   </div>
 
