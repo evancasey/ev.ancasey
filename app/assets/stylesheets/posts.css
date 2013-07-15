@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'ProximaNova-Regular';
+  src:url('ProximaNova-Regular.otf');
+/*  src:url('icomoon.eot?#iefix') format('embedded-opentype'),
+    url('icomoon.svg#icomoon') format('svg'),
+    url('icomoon.woff') format('woff'),
+    url('icomoon.ttf') format('truetype');*/
+  font-weight: normal;
+  font-style: normal;
+}
+
 .page {
 	float: left;
 	margin-left: 100px;
@@ -13,29 +24,39 @@
 
 .page .content {
 	margin-top: 10px;
+	font-size: 18px;
 }
 
-.page .project-content {
-	width: 600px;
-	float: left;
+.page .highlight {
+	font-size: 14px;
+	border-radius: 6px;
+	padding: 10px;
+
+}
+
+.page .projects-list {
 	margin: 20px 0 5px 0px;
-	width: 180px;
-	font-size: 16px;
+	width: 440px;
+	font-size: 18px;
 }
 
-.page .project-content img:hover {
+.page .projects-list .project {
+	margin-bottom: 15px;
+}
+
+.page .projects-list .project img:hover {
 	border-color: #AAA;
 }
 
-.page .project-desc {
-	float:left;
-	margin: 20px 0 0 0;
+.page .projects-list .project .desc {
+	margin: 0px;
 	width: 260px;
-	float:left;
+	float: right;
 	font-size: 12px;
+	height: 100px;
 }
 
-.page .project-desc li {
+.page .projects-list .project .desc li {
 	list-style: none inside;
 	padding: 5px 5px 5px 5px;
 	margin: 10px 10px 0px 0px;
@@ -49,16 +70,20 @@
 	text-align: center;
 }
 
-.page .project-desc li:hover {
+.page .projects-list .project .desc li:hover {
 	background-color: #ddd;
 	color: #555 !important;
 	border: solid 1px #aaa;
 }
 
-.page .project-desc a.extra {
+.page .projects-list .project .desc a.extra {
 	color: #ae2900;
-	font-size: 16px;
+	font-size: 18px;
 	margin: 10px 0px 10px 0px;
+}
+
+.page .projects-list .project .desc a:hover {
+	color: #888;
 }
 
 .field textarea {
