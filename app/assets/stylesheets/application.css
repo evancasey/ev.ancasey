@@ -48,7 +48,7 @@ a:hover {
 }
 
 img { 
-   border:5px solid #EEE
+   border:5px solid #EEE;
 }
 
 h1 {
@@ -129,7 +129,7 @@ table {
 
 .main .headline {
 	margin: 58px 0 0 100px;
-	width: 400px;
+	width: 450px;
 	font-size: 16px;
 	color: #000000;
 }
@@ -156,7 +156,7 @@ table {
 }
 
 .main .projects-list .project .desc {
-	margin: 0px 0 0 0;
+	margin: 0px;
 	width: 260px;
 	float: right;
 	font-size: 12px;

@@ -70,6 +70,9 @@
 	text-align: center;
 }
 
+.page li {
+	color: #ae2900;
+}
 .page .projects-list .project .desc li:hover {
 	background-color: #ddd;
 	color: #555 !important;
