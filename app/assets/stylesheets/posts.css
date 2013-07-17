@@ -15,6 +15,10 @@
 	width: 600px;
 }
 
+.page .project img {
+    border:5px solid #EEE;
+}
+
 .page .headline {
 	margin: 90px 0 0 0px;
 	font-size: 28px;
@@ -73,6 +77,15 @@
 
 .page li {
 	color: #ae2900;
+}
+
+.page .about-content {
+    margin-top: 10px;
+    font-size: 18px;
+}
+.page .about-content img {
+    float: left;
+    margin-right: 10px;
 }
 .page .projects-list .project .desc li:hover {
 	background-color: #ddd;

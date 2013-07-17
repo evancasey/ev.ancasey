@@ -48,7 +48,7 @@ a:hover {
 }
 
 img { 
-   border:5px solid #EEE;
+
 }
 
 h1 {
@@ -125,6 +125,10 @@ table {
 	float: left;
 	width: 440px;
 	
+}
+
+.main img{
+    border:5px solid #EEE;
 }
 
 .main .headline {
