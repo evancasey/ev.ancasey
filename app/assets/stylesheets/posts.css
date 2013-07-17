@@ -29,9 +29,10 @@
 
 .page .highlight {
 	font-size: 14px;
+    border: 1px solid rgba(0,0,0,0.15);
 	border-radius: 6px;
 	padding: 10px;
-
+    background-color: #f5f5f5;
 }
 
 .page .projects-list {
