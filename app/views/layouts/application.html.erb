@@ -14,27 +14,36 @@
 
     <div class="nav">    
 
-		<a class='home' href="/">Evan </br>Casey</a></br></br></br>
+      <div class="chunk"></div>
 
-		<span class='extra'>
+      <a class='home' href="/">Evan </br>Casey</a></br></br></br> </br>
 
-		<%= link_to "About", about_path %></br>
-		<%= link_to "Projects", projects_path %></br>
-		<%= link_to "Blog", posts_path %></br>
-		<%= link_to "Random", random_path %></br></br>
+        <span class='extra'>
 
-		</span>
+        <%= link_to "About", about_path %></br>
+          <%= link_to "Projects", projects_path %></br>
+          <%= link_to "Blog", posts_path %></br>
+          <%= link_to "Random", random_path %></br></br>
 
-		<a class='extra' href='http://twitter.com/ev_ancasey'>Twitter<br></a>
-		<a class='extra' href='http://github.com/evancasey'>Github<br></a>
-		<a class='extra' href='http://facebook.com/evan.casey.92'>Facebook</a><br><br>
+        </span>
 
-		<div id="user_nav">
-			<% if user_signed_in? %>
-			  Signed in as <%= current_user.email %>. Not you?
-			  <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-			<% end %>
-		</div>
+        <a class='extra' href='http://twitter.com/ev_ancasey'>Twitter<br></a>
+        <a class='extra' href='http://github.com/evancasey'>Github<br></a>
+        <a class='extra' href='http://facebook.com/evan.casey.92'>Facebook</a><br><br>
+
+        <div id="user_nav">
+          <% if user_signed_in? %>
+            Signed in as <%= current_user.email %>. Not you?
+            <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+          <% end %>
+        </div>
+
+        <div class="source">
+          &copy; Evan Casey 2011-2013 <br>
+          <a href="http://github.com/evancasey/ev.ancasey"> Source Code</a>
+        </div>
+
+      </div>
 
     </div>
 
@@ -42,6 +51,7 @@
   </div>
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -57,8 +67,4 @@
 </script>
 
 </body>
-<footer>
-  &copy; Evan Casey 2011-2013 <br>
-  <a href="http://github.com/evancasey/ev.ancasey"> Source Code</a>
-</footer>
 </html>

@@ -42,7 +42,7 @@
 
 .page .projects-list {
 	margin: 20px 0 5px 0px;
-	width: 440px;
+	width: 550px;
 	font-size: 18px;
 }
 
@@ -56,7 +56,7 @@
 
 .page .projects-list .project .desc {
 	margin: 0px;
-	width: 260px;
+	width: 360px;
 	float: right;
 	font-size: 12px;
 	height: 100px;

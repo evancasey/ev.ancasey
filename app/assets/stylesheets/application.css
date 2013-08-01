@@ -74,18 +74,23 @@ table {
 }
 
 .nav {
-    float: left;
-		border-top: 40px solid #ae2900;
-    text-transform: uppercase;
-    margin: 0 0 0 60px;
-    padding: 20px 0 0 0;
-    width: 170px;
+  float: left;
+  text-transform: uppercase;
+  margin: 0 0 0 60px;
+  width: 170px;
+}
+
+.nav .chunk {
+  height: 35px;
+  width: 160px;
+  margin-bottom: 30px;
+  background-color: #ae2900;
 }
 
 .nav .home {
-  margin-top: 180px;
 	font-size: 40px;
 	text-decoration: none;
+  margin-bottom: 15px;
 }
 
 .nav a.home:hover {
@@ -122,6 +127,17 @@ table {
   color: #888;
 }
 
+.nav .source {
+  text-transform: none;
+  font-size: 16px;
+  margin: 410px 0 50px 0;
+}
+
+.nav .source a {
+  color: #ae2900;
+}
+
+
 
 .main {
 	float: left;
@@ -132,18 +148,28 @@ table {
 
 .main img{
     border:5px solid #EEE;
-    width: 180px;
-    height: 135px;
+    width: 160px;
+    height: 115px;
 }
 
 .main .headline {
-	width: 450px;
-	font-size: 18px;
+  margin-top: 15px;
+	width: 850px;
+	font-size: 22px;
 	color: #000000;
 }
 
+.main .headline .content {
+  display: inline-block;
+}
+.main .headline .follow {
+  display: inline-block;
+  margin-left: 150px;
+  vertical-align: top;
+}
+
 .main .project-header {
-	margin: 30px 0 0 0;
+	margin: 45px 0 0 0;
 	width: 550px;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
@@ -165,7 +191,7 @@ table {
 
 .main .projects-list .project .desc {
 	margin: 0px;
-	width: 260px;
+	width: 360px;
 	float: right;
 	font-size: 14px;
 	height: 100px;
@@ -199,11 +225,16 @@ table {
 .main .projects-list .project .desc a.extra {
 	color: #ae2900;
 	font-size: 18px;
-	margin: 10px 0px 10px 0px;
+	margin: 10px 0px 30px 0px;
 }
 
 .main .projects-list .project .desc a:hover {
 	color: #888;
+}
+
+.main .projects-list .footer a {
+  margin-left: 190px;
+  color: #ae2900;
 }
 
 .main .headline a.extra{
@@ -219,13 +250,8 @@ table {
 	margin-left: 80px;
 }
 
-.right .subscribe {
-	width: 200px;
-	margin: 58px 0 20px 100px;
-}
-
 .right .blog-header {
-	margin: 136px 0 0 100px;
+	margin: 184px 0 20px 100px;
 	width: 200px;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
@@ -235,7 +261,7 @@ table {
 	color: #ae2900;
 	margin: 0 0 0 100px;
 	width: 200px;
-	font-size: 16px;
+	font-size: 18px;
 	text-decoration: none;
 }
 
@@ -249,18 +275,11 @@ table {
 
 .right .blog-list .blog-title {
 	margin-top: 10px;
+
 }
 
 .clear {
   clear: both;
-}
-
-footer {
-  clear: both;
-  position: relative;
-  font-size: 18px;
-  bottom: 10px;
-  margin: 50px 50px 0 270px;
 }
 
 /*****************************************************************************/
