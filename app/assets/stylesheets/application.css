@@ -70,20 +70,21 @@ table {
 /*
 /*****************************************************************************/
 
-.content {}
+.content {
+}
 
 .nav {
     float: left;
 		border-top: 40px solid #ae2900;
     text-transform: uppercase;
-    margin: 0 0 0 40px;
+    margin: 0 0 0 60px;
     padding: 20px 0 0 0;
-    width: 130px;
+    width: 170px;
 }
 
 .nav .home {
-	
-	font-size: 30px;
+  margin-top: 180px;
+	font-size: 40px;
 	text-decoration: none;
 }
 
@@ -95,6 +96,7 @@ table {
 	text-align: left;
 	line-height: 20px;
 	text-decoration: none;
+  font-size: 16px;
 }
 
 .nav #user_nav {
@@ -124,30 +126,32 @@ table {
 .main {
 	float: left;
 	width: 440px;
-	
+  height: 800px;
+  margin: 58px 0 0 80px;
 }
 
 .main img{
     border:5px solid #EEE;
+    width: 180px;
+    height: 135px;
 }
 
 .main .headline {
-	margin: 58px 0 0 100px;
 	width: 450px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #000000;
 }
 
 .main .project-header {
-	margin: 30px 0 0 100px;
-	width: 440px;
+	margin: 30px 0 0 0;
+	width: 550px;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
 }
 
 .main .projects-list {
-	margin: 20px 0 5px 100px;
-	width: 440px;
+	margin: 20px 0 5px 0;
+	width: 550px;
 	font-size: 18px;
 }
 
@@ -163,8 +167,13 @@ table {
 	margin: 0px;
 	width: 260px;
 	float: right;
-	font-size: 12px;
+	font-size: 14px;
 	height: 100px;
+}
+
+.main .projects-list .project .desc li {
+  font-size: 12px
+
 }
 
 .main .projects-list .project .desc li {
@@ -244,6 +253,14 @@ table {
 
 .clear {
   clear: both;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  font-size: 18px;
+  bottom: 10px;
+  margin: 50px 50px 0 270px;
 }
 
 /*****************************************************************************/
