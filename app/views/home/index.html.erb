@@ -1,151 +1,212 @@
-<div class ="main">
+<div class ='main'>
 
   <div class ='headline'>
 
-    <div class ="content">
-        Rising college senior who likes building things, <br>
-        software engineering intern at <a href="http://onekingslane.com"> One Kings Lane</a>.<br>
-      <%= link_to "More about me.", about_path, :class => "extra" %>
+    <div class ='content'>
+        <b> Hello! </b></br></br> My name is Evan Casey and I am a rising college senior who likes building things.
+        software engineering intern at <a href='http://onekingslane.com'> One Kings Lane</a>.
+      <%= link_to 'More about me.', about_path, :class => 'extra' %>
     </div>
 
-    <div class ="follow">
-      <a href="https://twitter.com/ev_ancasey" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @ev_ancasey</a>
+
+    <div class='social'>
+
+      <div class='follow'>        
+
+        <a href="https://twitter.com/ev_ancasey" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @ev_ancasey</a>
+
+      </div>
+
+      <div class='follow'>
+
+        <iframe src="http://ghbtns.com/github-btn.html?user=evancasey&type=follow&count=true"
+  allowtransparency="true" frameborder="0" scrolling="0" width="165" height="20"></iframe>
+      
+      </div>
+
     </div>
 
   </div>
 
-  <div class ='project-header'>
-      Projects
-  </div> 
+  <div class='grid'>
 
-  <div class ='projects-list'>
-    <div class='project'>
-      <a class ="extra" href="http://phonesma.sh">
-        <img src ="../assets/phonesmash.png" height = "112.5px" width = "150px">
-      </a>
+    <div class ='project-header'>
+        Projects
+    </div> 
 
-      <div class='desc'>
+    <div class ='projects-list'>
 
-        <a class="extra" href="http://phonesma.sh">
-          Phonesmash
-        </a></br></br>
-
-        Compete with your friends in real time to see who will throw their phone highest! Phonesmash calculates hangtime using accelerometer data and web sockets. Greylock Hackfest 2013 Finalist.
-
-        </br>
-
-        <li> Node.js </li>
-        <li> Sockets.io </li>
-        <li> Javascript </li>
-        <li> JQuery </li>
-
-      </div>
-    </div>
-    <div class ='project'>
-      <a class="extra" href="http://claremont-sms.herokuapp.com">
-      <img src ="../assets/claremont_sms.png" height = "112.5px" width = "150px">
-      </a>
-
-      <div class ='desc'>
-
-        <a class="extra" href="http://claremont-sms.herokuapp.com">
-          Grapevine
-        </a></br></br>
-
-        Grapevine is a messaging platform that allows you to text your friends one another anonymously, with a catch -- the recipient has one guess to see who the sender is. Won "Best Use of MongoDB" at the 2013 5C Hackathon.
-        
-        </br>
-
-        <li> Python </li>
-        <li> Flask </li>
-        <li> Twilio API </li>
-        <li> MongoDB </li>
-
-      </div>
-    </div>
-
-    <div class= 'project'>    
-      <a class ="extra" href="http://stockviz.herokuapp.com">
-      <img src ="../assets/stockviz.png" height = "112.5px" width = "150px">
-      </a>
-
-      <div class = 'desc'>
-
-        <a class="extra" href="http://stockviz.herokuapp.com">
-          StockVis
-        </a></br></br>
-
-        StockVis is a d3.js visualization of different influence metrics for users mentioning an $TICKER symbol (i.e. $APPL). Data collected from the Twitter streaming API in April 2013.
-
-        </br>
-
-        <li> D3.js </li>
-        <li> Python </li>
-        <li> Flask </li>
-        <li> Twitter API </li>
-
-      </div>
-    </div>
-
-    <div class='project'>    
-      <a class ="extra" href="http://hubbly.in">
-      <img src ="../assets/hubbly.png" height = "112.5px" width = "150px">
-      </a>
-
-      <div class='desc'>
-
-        <a class="extra" href="http://hubbly.in">
-          Hubbly.in
-        </a></br></br>
-
-        Hubbly is a prototype for a web ordering service that would allow 5C students to order food remotely from the Hub Grill.
-
-        </br>
-
-        <li> Python </li>
-        <li> Django </li>
-        <li> JQuery </li>
-        <li> Twitter Bootstrap </li>
-
-      </div>
-    </div>
-
-    <div class="footer">
-      <%= link_to "View more projects...", projects_path %></br>
-    </div>
-  </div>
-</div>
-
-
-<div class="right">
-
-  <div class ='blog-header'>
-    Blog
-  </div>  
-
-  <div class ='blog-list'>
-
-    <% if @posts.present? %>
-
-        <% @posts.each do |post| %>
-
-          <div class ='blog-title'>
-
-            <%= link_to post.title, post, :class => 'extra' %>
-
-            <% if user_signed_in? %>
-              <%= link_to "Edit", edit_post_path(post) %>
-            <% end %>
-
+      <div class='project'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/exposure.png'>
+        </a>
+        <div class='desc'>
+          Exposure
+          <div class='tags'>
+            app, hacking, social
           </div>
+        </div>
+      </div>
 
+      <div class='project'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/sparkler.png'>
+        </a>
+        <div class='desc'>
+          Sparkler
+          <div class='tags'>
+            machine learning, open source, distributed systems
+          </div>
+        </div>
 
-        <% end %>
+      </div>
 
-    <% end %>
+      <div class='project last'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/accrediant.png'>
+        </a>
+        <div class='desc'>
+          Accrediant
+          <div class='tags'>
+            freelance, consulting, research
+          </div>
+        </div>
+      </div>
+
+      <div class='project'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/phonesmash.png'>
+        </a>
+        <div class='desc'>
+          Phonesmash
+          <div class='tags'>
+            mobile, game, hacking
+          </div>
+        </div>
+      </div>
+
+      <div class='project'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/music.png'>
+        </a>
+        <div class='desc'>
+          Music Recommender System
+          <div class='tags'>
+            machine learning, music, recommender systems
+          </div>
+        </div>
+      </div>
+
+      <div class='project last'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/onekingslane.png'>
+        </a>
+        <div class='desc'>
+          One Kings Lane
+          <div class='tags'>
+            internship, software engineering
+          </div>
+        </div>
+      </div>
+
+      <div class ='project'>
+        <a class='extra' href='http://claremont-sms.herokuapp.com'>
+        <img src ='../assets/claremont_sms.png'>
+        </a>
+        <div class='desc'>
+          Grapevine
+          <div class='tags'>
+            app, hacking, social
+          </div>
+        </div>
+      </div>
+
+      <div class= 'project'>    
+        <a class ='extra' href='http://stockviz.herokuapp.com'>
+        <img src ='../assets/stockviz.png'>
+        </a>
+        <div class='desc'>
+          Visualizing the StockTweets Community
+          <div class='tags'>
+            data visualization, social networks, research
+          </div>
+        </div>
+      </div>
+
+      <div class='project last'>    
+        <a class ='extra' href='http://hubbly.in'>
+        <img src ='../assets/hubbly.png'>
+        </a>
+        <div class='desc'>
+          Hubbly
+          <div class='tags'>
+            app, prototype, hacking
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class ='photos-header'>
+        Photos
+    </div> 
+
+    <div class='photos-list'>
+
+      <div class='photo'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/phonesmash.png'>
+        </a>
+      </div>
+
+      <div class='photo'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/phonesmash.png'>
+        </a>
+      </div>
+
+      <div class='photo last'>
+        <a class ='extra' href='http://phonesma.sh'>
+          <img src ='../assets/phonesmash.png'>
+        </a>
+      </div>
+
+    </div>
+
 
   </div>
+  
+  <div class='right'>
+
+    <div class='blog-header'>
+      Blog
+    </div>  
+
+    <div class ='blog-list'>
+
+      <% if @posts.present? %>
+
+          <% @posts.each do |post| %>
+
+            <div class ='blog-title'>
+
+              <%= link_to post.title, post, :class => 'extra' %>
+
+              <% if user_signed_in? %>
+                <%= link_to 'Edit', edit_post_path(post) %>
+              <% end %>
+
+            </div>
+
+
+          <% end %>
+
+      <% end %>
+
+    </div>
+
+  </div>
+
+
 </div>
-
-
 

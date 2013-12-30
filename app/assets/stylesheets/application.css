@@ -18,10 +18,6 @@ html, body {
 @font-face {
   font-family: 'ProximaNova-Regular';
   src:url('ProximaNova-Regular.otf');
-/*  src:url('icomoon.eot?#iefix') format('embedded-opentype'),
-    url('icomoon.svg#icomoon') format('svg'),
-    url('icomoon.woff') format('woff'),
-    url('icomoon.ttf') format('truetype');*/
   font-weight: normal;
   font-style: normal;
 }
@@ -64,20 +60,32 @@ table {
   font: 100%;
 }
 
+.last { 
+	margin-bottom: 0 !important; 
+	margin-right: 0 !important; 
+}
+
+
 /*****************************************************************************/
 /*
 /* Site
 /*
 /*****************************************************************************/
 
+/* Nav Column */
+
 .content {
+	height: 100%;
+	float: left;
+	margin: 0 0 0 4%;
 }
 
 .nav {
   float: left;
-  text-transform: uppercase;
-  margin: 0 0 0 60px;
-  width: 170px;
+  text-transform: uppercase;  
+  width: 10%;
+  height: 100%;
+  position: fixed;
 }
 
 .nav .chunk {
@@ -130,79 +138,100 @@ table {
 .nav .source {
   text-transform: none;
   font-size: 16px;
-  margin: 410px 0 50px 0;
+  bottom: 5%;
+  position: fixed;
 }
 
 .nav .source a {
   color: #ae2900;
 }
 
-
+/* Main content */
 
 .main {
 	float: left;
-	width: 440px;
-  height: 800px;
-  margin: 58px 0 0 80px;
-}
-
-.main img{
-    border:5px solid #EEE;
-    width: 160px;
-    height: 115px;
+	width: 80%;
+  margin: 2% 0 0 13%;
 }
 
 .main .headline {
-  margin-top: 15px;
-	width: 850px;
+  margin-top: 2%;
+	width: 80%;
 	font-size: 22px;
 	color: #000000;
+	float: left;
 }
 
-.main .headline .content {
-  display: inline-block;
-}
-.main .headline .follow {
-  display: inline-block;
-  margin-left: 150px;
-  vertical-align: top;
+.main .headline .social {
+	margin-left: 2%;
+	margin-top: 4%;
+	float: left;
 }
 
-.main .project-header {
-	margin: 45px 0 0 0;
-	width: 550px;
+.main .headline .content {  
+  width: 70%;
+  float: left;
+  margin-top: 1%;
+  margin-left: 0;
+}
+
+.main .grid {
+	width: 56%;
+	height: 100%;
+	float: left;
+}
+
+/* Projects */
+
+.main .grid .project-header {
+	margin: 3% 0 0 0;
+	width: 98%;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
 }
 
-.main .projects-list {
-	margin: 20px 0 5px 0;
-	width: 550px;
+.main .grid .projects-list {
+	margin: 2% 0 1% 0;
+	width: 100%;
 	font-size: 18px;
+	overflow: auto;
 }
 
-.main .projects-list .project {
-	margin-bottom: 15px;
+.main .grid .projects-list .project {
+	margin-bottom: 2%;
+	margin-right: 5%;
+	width: 29%;
+	height: 5%;
+	float: left;
 }
 
-.main .projects-list .project img:hover {
-	border-color: #AAA;
+.main .grid .projects-list .project img {
+	border: 5px solid;
+	border-color: #EEE;
+	width: 100%;
+	height: 18%;
 }
 
-.main .projects-list .project .desc {
-	margin: 0px;
-	width: 360px;
-	float: right;
+.main .grid .projects-list .project .desc {
 	font-size: 14px;
-	height: 100px;
+	text-align: center;
+	margin-top: 5%;
+	font-weight: bold;
+	color: #ae2900;
 }
 
-.main .projects-list .project .desc li {
+.main .grid .projects-list .project .desc .tags {
+	margin-top: 1%;
+	color: #AAA;
+	font-size: 12px;
+}
+
+
+.main .grid .projects-list .project .desc li {
   font-size: 12px
-
 }
 
-.main .projects-list .project .desc li {
+.main .grid .projects-list .project .desc li {
 	list-style: none inside;
 	padding: 5px 5px 5px 5px;
 	margin: 10px 10px 0px 0px;
@@ -216,23 +245,23 @@ table {
 	text-align: center;
 }
 
-.main .projects-list .project .desc li:hover {
+.main .grid .projects-list .project .desc li:hover {
 	background-color: #ddd;
 	color: #555 !important;
 	border: solid 1px #aaa;
 }
 
-.main .projects-list .project .desc a.extra {
+.main .grid .projects-list .project .desc a.extra {
 	color: #ae2900;
 	font-size: 18px;
 	margin: 10px 0px 30px 0px;
 }
 
-.main .projects-list .project .desc a:hover {
+.main .grid .projects-list .project .desc a:hover {
 	color: #888;
 }
 
-.main .projects-list .footer a {
+.main .grid .projects-list .footer a {
   margin-left: 190px;
   color: #ae2900;
 }
@@ -245,35 +274,68 @@ table {
 	color: #888;
 }
 
-.right {
-	float: left;
-	margin-left: 80px;
-}
+/* Photos */
 
-.right .blog-header {
-	margin: 184px 0 20px 100px;
-	width: 200px;
+.main .grid .photos-header {
+	margin: 1% 0 0 0;
+	width: 98%;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
 }
 
-.right a.extra {
+.main .grid .photos-list {
+	margin: 2% 0 1% 0;
+	width: 100%;
+	font-size: 18px;
+	overflow: auto;
+}
+
+.main .grid .photo {
+	margin-bottom: 2%;
+	margin-right: 5%;
+	width: 29%;
+	height: 5%;
+	float: left;
+}
+
+.main .grid .photos-list .photo img {
+	width: 100%;
+	height: 18%;
+}
+
+/* Blog */
+
+.main .right {
+	float: left;
+	height: 100%;
+	width: 30%;
+	margin-left: 1.5%;
+}
+
+.main .right .blog-header {
+	margin: 6% 0 0 0;
+	width: 70%;
+	font-size: 28px;
+	border-bottom: 1px solid #000000;
+}
+
+.main .right a.extra {
 	color: #ae2900;
-	margin: 0 0 0 100px;
-	width: 200px;
+	/*margin: 0 0 0 10%;*/
+	width: 15%;
 	font-size: 18px;
 	text-decoration: none;
 }
 
-.right a.extra:hover{
+.main .right a.extra:hover{
 	color: #888;
 }
 
-.right .blog-list {
+.main .right .blog-list {
 
 }
 
-.right .blog-list .blog-title {
+.main .right .blog-list .blog-title {
 	margin-top: 10px;
 
 }
@@ -287,6 +349,7 @@ table {
 /* Syntax Highlighting
 /*
 /*****************************************************************************/
+
 .highlight pre{
 	font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
 }
