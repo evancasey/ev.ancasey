@@ -110,6 +110,7 @@ table {
 	line-height: 20px;
 	text-decoration: none;
   font-size: 16px;
+  font-weight: bold;
 }
 
 .nav #user_nav {
@@ -181,57 +182,57 @@ table {
 	float: left;
 }
 
-/* Projects */
+/* thumbs */
 
-.main .grid .project-header {
+.main .grid .thumb-header {
 	margin: 3% 0 0 0;
 	width: 98%;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
 }
 
-.main .grid .projects-list {
+.main .grid .thumbs-list {
 	margin: 2% 0 1% 0;
 	width: 100%;
 	font-size: 18px;
 	overflow: auto;
 }
 
-.main .grid .projects-list .project {
+.main .grid .thumbs-list .thumb {
 	margin-bottom: 2%;
 	margin-right: 5%;
 	width: 29%;
 	height: 5%;
 	float: left;
+	text-align: center;
 }
 
-.main .grid .projects-list .project img {
+.main .grid .thumbs-list .thumb img {
 	border: 5px solid;
 	border-color: #EEE;
 	width: 100%;
 	height: 18%;
 }
 
-.main .grid .projects-list .project .desc {
+.main .grid .thumbs-list .thumb .desc {
 	font-size: 14px;
-	text-align: center;
 	margin-top: 5%;
 	font-weight: bold;
 	color: #ae2900;
 }
 
-.main .grid .projects-list .project .desc .tags {
+.main .grid .thumbs-list .thumb .tags {
 	margin-top: 1%;
 	color: #AAA;
 	font-size: 12px;
 }
 
 
-.main .grid .projects-list .project .desc li {
+.main .grid .thumbs-list .thumb .desc li {
   font-size: 12px
 }
 
-.main .grid .projects-list .project .desc li {
+.main .grid .thumbs-list .thumb .desc li {
 	list-style: none inside;
 	padding: 5px 5px 5px 5px;
 	margin: 10px 10px 0px 0px;
@@ -245,23 +246,23 @@ table {
 	text-align: center;
 }
 
-.main .grid .projects-list .project .desc li:hover {
+.main .grid .thumbs-list .thumb .desc li:hover {
 	background-color: #ddd;
 	color: #555 !important;
 	border: solid 1px #aaa;
 }
 
-.main .grid .projects-list .project .desc a.extra {
+.main .grid .thumbs-list .thumb .desc a.extra {
 	color: #ae2900;
 	font-size: 18px;
 	margin: 10px 0px 30px 0px;
 }
 
-.main .grid .projects-list .project .desc a:hover {
+.main .grid .thumbs-list .thumb .desc a:hover {
 	color: #888;
 }
 
-.main .grid .projects-list .footer a {
+.main .grid .thumbs-list .footer a {
   margin-left: 190px;
   color: #ae2900;
 }
@@ -274,35 +275,6 @@ table {
 	color: #888;
 }
 
-/* Photos */
-
-.main .grid .photos-header {
-	margin: 1% 0 0 0;
-	width: 98%;
-	font-size: 28px;
-	border-bottom: 1px solid #000000;
-}
-
-.main .grid .photos-list {
-	margin: 2% 0 1% 0;
-	width: 100%;
-	font-size: 18px;
-	overflow: auto;
-}
-
-.main .grid .photo {
-	margin-bottom: 2%;
-	margin-right: 5%;
-	width: 29%;
-	height: 5%;
-	float: left;
-}
-
-.main .grid .photos-list .photo img {
-	width: 100%;
-	height: 18%;
-}
-
 /* Blog */
 
 .main .right {
@@ -313,7 +285,7 @@ table {
 }
 
 .main .right .blog-header {
-	margin: 6% 0 0 0;
+	margin: 5.6% 0 0 0;
 	width: 70%;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;

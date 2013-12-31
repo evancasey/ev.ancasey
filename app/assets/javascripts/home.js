@@ -7,12 +7,14 @@ $(function(){
 	$('.main .grid img').mouseenter(function(e) {
 	  e.preventDefault();        
 	  $(this).css('border-color','#AAA');
-	  $(this).closest('.project').children('.desc').css('color','#888');
+	  $(this).closest('.thumb').children('.desc').css('color','#888');
+	  $(this).closest('.thumb').children('.desc').css('background-color','yellow');
 	});
 	$('.main .grid img').mouseleave(function(e) {
 	  e.preventDefault();
 	  $(this).css('border-color','#EEE');	 
-	  $(this).closest('.project').children('.desc').css('color','#ae2900'); 
+	  $(this).closest('.thumb').children('.desc').css('color','#ae2900'); 
+	  $(this).closest('.thumb').children('.desc').css('background-color','white');
 	});
 
 });
