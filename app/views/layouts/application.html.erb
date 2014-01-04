@@ -16,24 +16,48 @@
 
       <div class="chunk"></div>
 
-      <a class='home' href="/">Evan </br>Casey</a></br></br></br> </br>
+      <a class='home' href="/">Evan </br>Casey</a></br> </br>
 
         <div class='extra'>
 
-          <%= link_to "About", about_path %></br>
+          <div class='header'>
+            <%= link_to "About", about_path %></br>
+          </div>
+          <div class='header'>
+            <%= link_to "Blog", posts_path %>
+          </div>
+          <div class='header'>
+            Projects
+          </div>
+          <div class='links'>
+            <%= link_to "Exposure", exposure_path %>
+            <%= link_to "Sparkler", sparkler_path %>
+            <%= link_to "Accrediant", accrediant_path %>
+            <%= link_to "Phonesmash", phonesmash_path %>
+            <%= link_to "Music Recommender", music_recommender_system_path %>
+            <%= link_to "One Kings Lane", one_kings_lane_path %>
+            <%= link_to "Grapevine", grapevine_path %>
+            <%= link_to "Visual Stocktweets", visualizing_the_stocktweets_community_path %>
+            <%= link_to "SIF Voting", student_investment_fund_voting_path %>
+            
+          </div>
+          <div class='header'>
+            Photos</br>
+          </div>
+          <div class='links'>
+            <%= link_to "Things", things_path %>
+            <%= link_to "Nature", nature_path %>
+            <%= link_to "People", people_path %>
+          </div>
+          <div class='header'>
+            Adventures</br>
+          </div>
+          <div class='links'>
+            <%= link_to "Skating", skating_path %>
+            <%= link_to "Mongolia", mongolia_path %>
+          </div>
 
         </div>
-
-        <div class='extra'>
-          <%= link_to "Projects", projects_path %></br>
-          <%= link_to "Blog", posts_path %></br>
-          <%= link_to "Random", random_path %></br></br>
-
-        </div>
-
-        <a class='extra' href='http://twitter.com/ev_ancasey'>Twitter<br></a>
-        <a class='extra' href='http://github.com/evancasey'>Github<br></a>
-        <a class='extra' href='http://facebook.com/evan.casey.92'>Facebook</a><br><br>
 
         <div id="user_nav">
           <% if user_signed_in? %>

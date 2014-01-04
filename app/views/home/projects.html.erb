@@ -3,97 +3,187 @@
   <div class = 'headline'>Projects</div>
 
   <div class ='content'></div>
-    <div class ='projects-list'>
-      <div class='project'>
-        <a class ="extra" href="http://phonesma.sh">
-          <img src ="../assets/phonesmash.png" height = "112.5px" width = "150px">
-        </a>
+    <div class='grid'>
 
-        <div class='desc'>
+      <div class ='thumb-header'>
+          Projects
+      </div> 
 
-          <a class="extra" href="http://phonesma.sh">
+      <div class ='thumbs-list'>
+
+        <div class='thumb'>
+          <%= link_to(exposure_path) do %>
+            <img src ='../assets/exposure.png'>
+          <% end %>
+          <span class='desc'>
+            Exposure
+          </span>
+          <div class='tags'>
+            app, hacking, social
+          </div>
+        </div>
+
+        <div class='thumb'>
+          <%= link_to(sparkler_path) do %>
+            <img src ='../assets/sparkler.png'>
+          <% end %>
+          <span class='desc'>
+            Sparkler
+          </span>
+          <div class='tags'>
+            machine learning, open source, distributed systems
+          </div>
+
+        </div>
+
+        <div class='thumb last'>    
+          <%= link_to(student_investment_fund_voting_path) do %>
+            <img src ='../assets/sif-vote.png'>
+          <% end %>
+          <span class='desc'>
+            Student Investment Fund Voting
+          </span>
+          <div class='tags'>
+            app, SMS
+          </div>
+        </div>
+
+        <div class='thumb'>
+          <%= link_to(phonesmash_path) do %>
+            <img src ='../assets/phonesmash.png'>
+          <% end %>
+          <span class='desc'>
             Phonesmash
-          </a></br></br>
-
-          Compete with your friends in real time to see who will throw their phone highest! Phonesmash calculates hangtime using accelerometer data and web sockets. Greylock Hackfest 2013 Finalist.
-
-          </br>
-
-          <li> Node.js </li>
-          <li> Sockets.io </li>
-          <li> Javascript </li>
-          <li> JQuery </li>
-
+          </span>
+          <div class='tags'>
+            mobile, game, hacking
+          </div>
         </div>
-      </div>
-      <div class ='project'>
-        <a class="extra" href="http://claremont-sms.herokuapp.com">
-          <img src ="../assets/claremont_sms.png" height = "112.5px" width = "150px">
-        </a>
 
-        <div class ='desc'>
+        <div class='thumb'>
+          <%= link_to(music_recommender_system_path) do %>
+            <img src ='../assets/music.png'>
+          <% end %>
+          <span class='desc'>
+            Music Recommender System
+          </span>
+          <div class='tags'>
+            machine learning, music, recommender systems
+          </div>
+        </div>
 
-          <a class="extra" href="http://claremont-sms.herokuapp.com">
+        <div class='thumb last'>
+          <%= link_to(one_kings_lane_path) do %>
+            <img src ='../assets/onekingslane.png'>
+          <% end %>
+          <span class='desc'>
+            One Kings Lane
+          </span>
+          <div class='tags'>
+            internship, software engineering
+          </div>
+        </div>
+
+        <div class ='thumb'>
+          <%= link_to(grapevine_path) do %>
+          <img src ='../assets/claremont_sms.png'>
+          <% end %>
+          <span class='desc'>
             Grapevine
-          </a></br></br>
-
-          Grapevine is a messaging platform that allows you to text your friends one another anonymously, with a catch -- the recipient has one guess to see who the sender is. Won "Best Use of MongoDB" at the 2013 5C Hackathon.
-
-          </br>
-
-          <li> Python </li>
-          <li> Flask </li>
-          <li> Twilio API </li>
-          <li> MongoDB </li>
-
+          </span>
+          <div class='tags'>
+            app, hacking, social
+          </div>
         </div>
+
+        <div class= 'thumb'>    
+          <%= link_to(visualizing_the_stocktweets_community_path) do %>
+          <img src ='../assets/stockviz.png'>
+          <% end %>
+          <span class='desc'>
+            Visualizing the StockTweets Community
+          </span>
+          <div class='tags'>
+            data visualization, social networks, research
+          </div>
+        </div>
+
+        <div class='thumb last'>
+          <%= link_to(accrediant_path) do %>
+            <img src ='../assets/accrediant.png'>
+          <% end %>
+          <span class='desc'>
+            Accrediant
+          </span>
+          <div class='tags'>
+            freelance, consulting, research
+          </div>
+        </div>
+
       </div>
 
-      <div class= 'project'>
-        <a class ="extra" href="http://stockviz.herokuapp.com">
-          <img src ="../assets/stockviz.png" height = "112.5px" width = "150px">
-        </a>
+      <div class ='thumb-header'>
+          Photos
+      </div> 
 
-        <div class = 'desc'>
+      <div class='thumbs-list'>
 
-          <a class="extra" href="http://stockviz.herokuapp.com">
-            StockVis
-          </a></br></br>
-
-          StockVis is a d3.js visualization of different influence metrics for users mentioning an $TICKER symbol (i.e. $APPL). Data collected from the Twitter streaming API in April 2013.
-
-          </br>
-
-          <li> D3.js </li>
-          <li> Python </li>
-          <li> Flask </li>
-          <li> Twitter API </li>
-
+        <div class='thumb'>
+          <%= link_to(things_path) do %>
+            <img src ='../assets/things.jpg'>
+          <% end %>
+          <span class='desc'>
+            Things
+          </span>
         </div>
+
+        <div class='thumb'>
+          <%= link_to(nature_path) do %>
+            <img src ='../assets/nature.jpg'>
+          <% end %>
+          <span class='desc'>
+            Nature
+          </span>
+        </div>
+
+        <div class='thumb last'>
+          <%= link_to(people_path) do %>
+            <img src ='../assets/people.jpg'>
+          <% end %>
+          <span class='desc'>
+            People
+          </span>
+        </div>
+
       </div>
 
-      <div class='project'>
-        <a class ="extra" href="http://hubbly.in">
-          <img src ="../assets/hubbly.png" height = "112.5px" width = "150px">
-        </a>
+      <div class ='thumb-header'>
+          Adventures
+      </div> 
 
-        <div class='desc'>
+      <div class='thumbs-list'>
 
-          <a class="extra" href="http://hubbly.in">
-            Hubbly.in
-          </a></br></br>
-
-          Hubbly is a prototype for a web ordering service that would allow 5C students to order food remotely from the Hub Grill.
-
-          </br>
-
-          <li> Python </li>
-          <li> Django </li>
-          <li> JQuery </li>
-          <li> Twitter Bootstrap </li>
-
+        <div class='thumb'>
+          <%= link_to(skating_path) do %>
+            <img src ='../assets/skating.png'>
+          <% end %>
+          <span class='desc'>
+            Skating
+          </span>
         </div>
+
+        <div class='thumb'>
+          <%= link_to(mongolia_path) do %>
+            <img src ='../assets/mongolia.jpg'>
+          <% end %>
+          <span class='desc'>
+            Mongolia
+          </span>
+        </div>
+
       </div>
+
+
     </div>
   </div>
 </div>
