@@ -20,6 +20,8 @@ test:
 
 production:
   adapter: postgresql
-  database: db/production.postgresql
+  database: db/production
   pool: 5
   timeout: 5000
+  user: postgres
+  password: Sk8board
