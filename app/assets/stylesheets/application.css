@@ -328,6 +328,10 @@ table {
   clear: both;
 }
 
+.edit_post {
+  margin-left: 300px;
+}
+
 /*****************************************************************************/
 /*
 /* Syntax Highlighting
