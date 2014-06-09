@@ -99,22 +99,27 @@
   });
 
   // Text highlighting
-  $(function(){
+  // $(function(){
 
-    $('.main .grid img').mouseenter(function(e) {
-      e.preventDefault();        
-      $(this).css('border-color','#AAA');
-      $(this).closest('.thumb').children('.desc').css('color','#888');
-      $(this).closest('.thumb').children('.desc').css('background-color','yellow');
-    });
-    $('.main .grid img').mouseleave(function(e) {
-      e.preventDefault();
-      $(this).css('border-color','#EEE');  
-      $(this).closest('.thumb').children('.desc').css('color','#ae2900'); 
-      $(this).closest('.thumb').children('.desc').css('background-color','white');
-    });
+  //   $('.main .grid img').mouseenter(function(e) {
+  //     e.preventDefault();        
+  //     $(this).css('border-color','#AAA');
+  //     $(this).closest('.thumb').children('.desc').css('color','#888');
+  //     $(this).closest('.thumb').children('.desc').css('background-color','yellow');
+  //   });
+  //   $('.main .grid img').mouseleave(function(e) {
+  //     e.preventDefault();
+  //     $(this).css('border-color','#EEE');  
+  //     $(this).closest('.thumb').children('.desc').css('color','#ae2900'); 
+  //     $(this).closest('.thumb').children('.desc').css('background-color','white');
+  //   });
 
-  });
+  // });
+  
+  // soundcloud playlist
+  if (document.location.href == "http://www.ev.ancasey.com/posts/coding-music") {
+    $('.page .content').append('<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/37710584&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>')
+  }
 
   // twitter button
   !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
