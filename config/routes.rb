@@ -10,6 +10,7 @@ EvAncasey::Application.routes.draw do
   root :to => "home#index"  
 
   match '/about', to: 'home#about'
+  match '/contact', to: 'home#contact'
   match '/projects', to: 'home#projects'
   match '/random', to: 'home#random'
   match '/home', to: 'home#index'

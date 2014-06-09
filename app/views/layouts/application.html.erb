@@ -12,6 +12,13 @@
 
   <div class="content">
 
+    <div id="user_nav">
+      <% if user_signed_in? %>
+        Signed in as <%= current_user.email %>. Not you?
+        <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+      <% end %>
+    </div>
+
     <div class="nav">    
 
       <div class="chunk"></div>
@@ -54,15 +61,11 @@
               <%= link_to "Skateboarding", skating_path %>
               <%= link_to "Mongolia", mongolia_path %>
             </div>
+         </div>       
+         <div class='header'>
+            <%= link_to "Contact", contact_path %>
          </div>
        </div>
-
-        <div id="user_nav">
-          <% if user_signed_in? %>
-            Signed in as <%= current_user.email %>. Not you?
-            <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
-          <% end %>
-        </div>
 
         <div class="source">
           &copy; Evan Casey 2011-2014 <br>

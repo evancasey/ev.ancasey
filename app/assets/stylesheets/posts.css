@@ -94,10 +94,8 @@
 }
 .page .about-content img {
   float: left;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  border: 5px solid;
-  border-color: #EEE;
+  margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .about-social {
