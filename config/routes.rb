@@ -9,14 +9,18 @@ EvAncasey::Application.routes.draw do
 
   root :to => "home#index"  
 
+  # homepage links
+  match '/home', to: 'home#index'
   match '/about', to: 'home#about'
   match '/contact', to: 'home#contact'
   match '/projects', to: 'home#projects'
-  match '/random', to: 'home#random'
-  match '/home', to: 'home#index'
 
+  # about links
   match '/photos', to: 'home#photos'
+  match '/skating', to: 'home#skating'
+  match '/travel', to: 'home#travel'
 
+  # projects
   match '/exposure', to: 'home#exposure'
   match '/sparkler', to: 'home#sparkler'
   match '/accrediant', to: 'home#accrediant'
@@ -27,11 +31,4 @@ EvAncasey::Application.routes.draw do
   match '/visualizing_the_stocktweets_community', to: 'home#visualizing-the-stocktweets-community'
   match '/student_investment_fund_voting', to: 'home#student-investment-fund-voting'
 
-  match '/things', to: 'home#things'
-  match '/nature', to: 'home#nature'
-  match '/people', to: 'home#people'
-
-  match '/skating', to: 'home#skating'
-  match '/mongolia', to: 'home#mongolia'
-
-  end
+end
