@@ -5,11 +5,9 @@
 	<div class="about-content">
     <img src ="../assets/me.jpg" height = "250px" width = "250px">
     <div class="about-desc">
-        Hello! My name is <b>Evan Casey</b>. I am a software developer residing in New York City. I currently work at <a href="http://tapad.com">Tapad</a>. When I'm not in front of my computer, I like to skateboard, take photos, and travel. I'm also a 2014 <a href="http://hackny.org">HackNY</a> Fellow.</br></br>
+        Hello! My name is <b>Evan Casey</b>. I am a software developer residing in New York City. I currently work at <a href="http://tapad.com">Tapad</a>. When I'm not in front of my computer, I like to skateboard, take <%= link_to(photos_path) do %>photos<% end %>, and travel. I'm also a 2014 <a href="http://hackny.org">HackNY</a> Fellow.</br></br>
 
-        My favorite language is <b>Python</b>, although most of my current work is in Scala. In the past, I've also worked in Ruby and Javascript. I'm highly interested in the intersection between machine learning, statistics, and distributed systems and have worked on a number of amibitious <%= link_to(projects_path) do %>
-          projects
-        <% end %> in this area.</br> </br>
+        My favorite language is <b>Python</b>, although most of my current work is in Scala. In the past, I've also worked in Ruby and Javascript. I'm highly interested in the intersection between machine learning, statistics, and distributed systems and have worked on a number of amibitious <%= link_to(projects_path) do %>projects<% end %> in this area.</br> </br>
 
         I recently graduated from <a href="http://cmc.edu/"> Claremont McKenna College </a> (Claremont, CA), where I received degrees in Math and Economics and minored in Computer Science. I took most of math and computer science courses at Pomona and Harvey Mudd and was a teaching assistant for MATH152 Statistical Inference under <a href="http://www.cmc.edu/pages/faculty/DNeedell/"> Professor Deanna Needell </a>. </br></br>
 

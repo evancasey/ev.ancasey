@@ -10,6 +10,7 @@
 }
 
 .page {
+  margin-top: 6%;
 	float: left;
 	margin-left: 13%;
 	width: 600px;
@@ -17,7 +18,8 @@
 }
 
 .page .headline {
-	margin: 13% 0 0 4%;
+/*	margin: 13% 0 0 4%;*/
+  margin-left: 4%;
 	font-size: 28px;
 	border-bottom: 1px solid #000000;
 	width: 600px;
@@ -103,11 +105,10 @@
   height: 100%;
   width: 30%;
   margin-left: 4%;
-  margin-top: 3.75%
+  margin-top: 6%
 }
 
 .about-social-header {
-  margin: 5.6% 0 0 0;
   width: 70%;
   font-size: 28px;
   border-bottom: 1px solid #000000;

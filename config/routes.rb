@@ -15,6 +15,8 @@ EvAncasey::Application.routes.draw do
   match '/random', to: 'home#random'
   match '/home', to: 'home#index'
 
+  match '/photos', to: 'home#photos'
+
   match '/exposure', to: 'home#exposure'
   match '/sparkler', to: 'home#sparkler'
   match '/accrediant', to: 'home#accrediant'
