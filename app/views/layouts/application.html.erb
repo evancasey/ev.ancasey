@@ -34,18 +34,7 @@
             <%= link_to "Blog", posts_path %>
           </div>
           <div class='header'>
-            Projects
-            <div class='links'>
-              <%= link_to "Exposure", exposure_path %>
-              <%= link_to "Sparkler", sparkler_path %>
-              <%= link_to "Accrediant", accrediant_path %>
-              <%= link_to "Phonesmash", phonesmash_path %>
-              <%= link_to "Music Recommender", music_recommender_system_path %>
-              <%= link_to "One Kings Lane", one_kings_lane_path %>
-              <%= link_to "Grapevine", grapevine_path %>
-              <%= link_to "Visual Stocktweets", visualizing_the_stocktweets_community_path %>
-              <%= link_to "SIF Voting", student_investment_fund_voting_path %>  
-            </div>
+            <%= link_to "Projects", projects_path %>
           </div>   
          <div class='header'>
             <%= link_to "Contact", contact_path %>
@@ -71,16 +60,6 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-  
-  // Side bar links
-  $('.extra .header').children('.links').hide();
-  $('.extra .header').on('click',function() {
-    if ($(this).children('.links').is(":visible")) {
-      $(this).children('.links').slideUp();
-    } else { 
-      $(this).children('.links').slideDown();
-    }
-  });
 
   // Text highlighting
   $(function(){
