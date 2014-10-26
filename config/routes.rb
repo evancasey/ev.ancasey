@@ -4,7 +4,6 @@ EvAncasey::Application.routes.draw do
 
   resources :users
   resources :posts
-  resources :subscribes
   resources :home
 
   root :to => "home#index"  
